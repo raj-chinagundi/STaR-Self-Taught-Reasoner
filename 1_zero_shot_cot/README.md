@@ -109,14 +109,3 @@ Final Accuracy: 13.2% (174/1319)
   ]
 }
 ```
-
-## Expected Results
-
-| Model Size | Accuracy | Notes |
-|------------|----------|-------|
-| 3B | 10-15% | Small models struggle with multi-step reasoning |
-| 7B | 15-25% | Moderate improvement |
-| 13B+ | 20-30% | Better reasoning but still limited |
-
-Zero-shot performance establishes the baseline before training interventions.
-
