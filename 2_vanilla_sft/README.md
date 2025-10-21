@@ -112,32 +112,4 @@ python evaluate.py --max_samples 100
 
 **Saved Results:** `results/vanilla_sft_results_model_{split}_{timestamp}.json`
 
-## Hardware Requirements
-
-**Minimum:**
-- GPU: 24GB VRAM (RTX 3090, RTX 4090)
-- RAM: 32GB
-- Training time: ~4-5 hours (3 epochs)
-
-**Recommended:**
-- GPU: A100 40GB or 80GB
-- RAM: 64GB
-- Training time: ~2-3 hours (3 epochs)
-
-**Training Configuration:**
-- Batch size per device: 8
-- Gradient accumulation: 4
-- Effective batch size: 32
-- Mixed precision: FP16
-
-## Expected Results
-
-Performance on GSM8k test set (1,319 examples):
-
-| Model | Accuracy Improvement |
-|-------|---------------------|
-| 3B Model | 10-15% → 30-40% |
-| 7B Model | 15-25% → 40-50% |
-
-Vanilla SFT provides 2-3x improvement over zero-shot baseline by learning human reasoning patterns.
 
