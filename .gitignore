@@ -1,0 +1,91 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Data and Results
+# */data/*.jsonl
+# */results/
+*.safetensors
+*.bin
+*.pt
+
+# Logs
+*.log
+*.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Keep directory structure
+!*/data/.gitkeep
+!*/results/.gitkeep
+
+# Existing content...
+
+# Model weights and checkpoints
+*.safetensors
+*.bin
+*.pth
+*.pt
+model.safetensors.index.json
+
+# Model directories
+2_vanilla_sft/results/model/
+3_star/results/model_*/
+**/checkpoint-*/
+
+# Archive folders
+3_star/archive/
+
+# Keep .gitkeep files
+!.gitkeep
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archive folders
+**/archive/
+
+# Results (optional - uncomment if you don't want to track results)
+# results/*.json
+
+# ...existing code...
+
+# Model folders in results
+**/results/model/
+**/results/model_*/
+
+# Archive folders
+**/archive/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Keep .gitkeep files
+!.gitkeep
