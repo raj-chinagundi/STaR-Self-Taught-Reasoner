@@ -2,6 +2,9 @@
 
 Implementation of the Self-Taught Reasoner (STaR) methodology for improving language model reasoning through iterative self-training on GSM8k mathematical reasoning dataset.
 
+# Flow Diagram
+ ![flow diagram of STaR](https://pbs.twimg.com/media/G2_p5phbwAEZRY4?format=jpg&name=large)
+
 ## Overview
 
 This repository implements three progressive approaches to mathematical reasoning:
