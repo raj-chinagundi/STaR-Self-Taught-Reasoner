@@ -59,17 +59,6 @@ python run.py --split train
 - `--max_samples`: Limit number of examples (default: `None` = all)
 - `--save_results`: Save detailed JSON results (default: `False`)
 
-## Hardware Requirements
-
-**Minimum:**
-- GPU: 24GB VRAM (e.g., RTX 3090, RTX 4090)
-- Batch size: 32
-- Time: ~45 minutes for full test set
-
-**Recommended:**
-- GPU: 40GB+ VRAM (e.g., A100)
-- Batch size: 64
-- Time: ~30 minutes for full test set
 
 ## Output
 
